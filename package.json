@@ -1,0 +1,29 @@
+{
+  "name": "winston-logger",
+  "version": "1.0.0",
+  "description": "Winston logger by rotate day and show handling file name",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolyagithub/winston-logger.git"
+  },
+  "keywords": [
+    "winston"
+  ],
+  "author": "qudrat abdullaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolyagithub/winston-logger/issues"
+  },
+  "homepage": "https://github.com/kolyagithub/winston-logger#readme",
+  "dependencies": {
+    "express": "4.13.4",
+    "body-parser": "1.15.2",
+    "underscore": "1.8.3",
+    "winston": "2.2.0",
+    "winston-daily-rotate-file": "1.3.1"
+  }
+}
